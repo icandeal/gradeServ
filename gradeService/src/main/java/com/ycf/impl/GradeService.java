@@ -20,7 +20,7 @@ public class GradeService implements IGradeService{
     GradeInfoMapper gradeInfoMapper;
 
     public Integer getGradeCount(){
-        List<GradeInfo> list= gradeInfoMapper.selectByExample(null);
-        return list.size();
+        Integer count = gradeInfoMapper.countByExample(null);
+        return count;
     }
 }

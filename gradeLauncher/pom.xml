@@ -11,4 +11,11 @@
 
     <artifactId>gradeLauncher</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.ycf</groupId>
+            <artifactId>gradeConf</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 </project>

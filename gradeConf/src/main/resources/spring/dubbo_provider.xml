@@ -4,5 +4,5 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
 
 
-    <!--<dubbo:service id="test" interface="com.ycf.TestAPI" ref="testAPIImpl"/>-->
+    <dubbo:service id="test" interface="com.ycf.GradeAPI" ref="gradeAPIImpl"/>
 </beans>
